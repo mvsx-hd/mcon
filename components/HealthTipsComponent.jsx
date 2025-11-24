@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { collection, getDocs, doc, deleteDoc } from "firebase/firestore";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { db } from "@/config/firebaseconfig";
+import { auth } from "@/auth";
 
 const HealthTips = ({ session }) => {
 
