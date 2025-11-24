@@ -7,7 +7,7 @@ import ShareAdviceClient from '@/components/ShareAdviceClient';
 const page = async () => {
   const session = await auth();
   if (!session) {
-    redirect("/signup")
+    redirect("/auth/signin")
   }
   return (
     <div className='mb-5'>
