@@ -22,11 +22,11 @@ const HealthTips = ({ session }) => {
                 }
                 console.log(errorFix);
                 q.push(errorFix)
-                console.log(q);
+                // console.log(q);
 
             });
             setTips(q);
-            console.log(q);
+            // console.log(q);
 
         } catch (error) {
             console.error("Error fetching tips:", error);

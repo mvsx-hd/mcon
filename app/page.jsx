@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex gap-4">
             <div className="space-x-10">
               <button className="flex items-center justify-center gap-2 w-full bg-green-500/40 text-white px-6 py-3 rounded-lg">
-                <Link href={"/signup"}>
+                <Link href={"/auth/signin"}>
                   <p className="text-3xl font-semibold">Get started</p>
                 </Link>
                 <FaArrowRight />
