@@ -11,7 +11,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: "Medcon - Connecting people to nearby Pharmacies",
-  description: "A platform that allows users to search for medicines and instantly see which nearby Pharmacy has it.",
+  description: "A platform where health tips are being shared by medical professionals.",
 };
 
 export default function RootLayout({ children }) {
