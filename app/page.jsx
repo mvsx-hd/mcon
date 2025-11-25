@@ -20,25 +20,25 @@ export default function Home() {
           <p className="text-white italic text-xl mb-8 max-w-lg">
             A community where we help each other stay healthy. Learn when to take medicines, explore practical home remedies, and read helpful insights shared by real users and medical professionals.
           </p>
-          <div className="flex max-md:grid max-md:grid-cols-1 items-center justify center">
-          <div className="flex gap-4">
-            <div className="space-x-10">
-              <button className="flex items-center justify-center gap-2 w-full bg-green-500/40 text-white px-6 py-3 rounded-lg">
-                <Link href={"/auth/signin"}>
-                  <p className="text-3xl font-semibold">Get started</p>
-                </Link>
-                <FaArrowRight />
-              </button>
+          <div className="flex items-center justify center">
+            <div className="grid grid-cols-1 md:grid-cols-2">
+              <div className="space-x-10">
+                <button className="flex items-center justify-center gap-2 w-full bg-green-500/40 text-white px-6 py-3 rounded-lg">
+                  <Link href={"/auth/signin"}>
+                    <p className="text-3xl font-semibold">Get started</p>
+                  </Link>
+                  <FaArrowRight />
+                </button>
+              </div>
+              <div className="space-x-10">
+                <button className="flex items-center justify-center gap-2 w-full bg-green-200/10 text-white px-6 py-3 rounded-lg">
+                  <Link href={"/health-tips"}>
+                    <p className="text-3xl font-semibold">Get Tips</p>
+                  </Link>
+                  <FaArrowRight />
+                </button>
+              </div>
             </div>
-            <div className="space-x-10">
-              <button className="flex items-center justify-center gap-2 w-full bg-green-200/10 text-white px-6 py-3 rounded-lg">
-                <Link href={"/health-tips"}>
-                  <p className="text-3xl font-semibold">Get Tips</p>
-                </Link>
-                <FaArrowRight />
-              </button>
-            </div>
-          </div>
           </div>
         </section>
       </main>
