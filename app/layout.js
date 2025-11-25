@@ -10,7 +10,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Medcon - Connecting people to nearby Pharmacies",
+  title: "Medcon - Empowering better health decisions",
   description: "A platform where health tips are being shared by medical professionals.",
 };
 
