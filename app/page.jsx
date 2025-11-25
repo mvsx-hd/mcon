@@ -96,7 +96,7 @@ export default function Home() {
         </p>
         <div className="space-x-4">
           <Link
-            href="/signup"
+            href="/auth/signin"
             className="bg-white text-green-700 px-6 py-3 rounded-md hover:bg-gray-100 transition"
           >
             Sign Up Now
