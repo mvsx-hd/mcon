@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaUserPlus } from "react-icons/fa";
 import { AiOutlinePlusCircle } from "react-icons/ai"
@@ -21,6 +20,7 @@ export default function Home() {
           <p className="text-white italic text-xl mb-8 max-w-lg">
             A community where we help each other stay healthy. Learn when to take medicines, explore practical home remedies, and read helpful insights shared by real users and medical professionals.
           </p>
+          <div className="grid md:grid-cols-2">
           <div className="flex gap-4">
             <div className="space-x-10">
               <button className="flex items-center justify-center gap-2 w-full bg-green-500/40 text-white px-6 py-3 rounded-lg">
@@ -38,6 +38,7 @@ export default function Home() {
                 <FaArrowRight />
               </button>
             </div>
+          </div>
           </div>
         </section>
       </main>
