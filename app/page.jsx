@@ -73,11 +73,11 @@ export default function Home() {
           <div>
             <FaUserPlus className="text-blue-600 text-4xl mx-auto mb-4" />
             <h3 className="font-semibold text-xl mb-2">Create an Account</h3>
-            <p>Sign up quickly with Google or email to get started.</p>
+            <p>Sign up quickly with Google get started.</p>
           </div>
           <div>
             <AiOutlinePlusCircle className="text-green-600 text-4xl mx-auto mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Add Your Medicines</h3>
+            <h3 className="font-semibold text-xl mb-2">Send in Your Health tips</h3>
             <p>Enter your prescriptions or symptoms to receive advice.</p>
           </div>
           {/* <div>
